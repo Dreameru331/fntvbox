@@ -6,7 +6,7 @@
       "key": "douban",
       "name": "豆瓣热播 (聚合秒搜)",
       "type": 3,
-      "api": "csp_Douban",
+      "api": "csp_DouDou",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
