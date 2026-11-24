@@ -12,16 +12,6 @@
       "filterable": 0
     },
     {
-      "key": "ffzy",
-      "name": "🚀 非凡影视",
-      "type": 1,
-      "api": "http://ffzy5.tv/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
       "key": "zy360",
       "name": "🛡️ 360专线",
       "type": 1,
@@ -42,10 +32,20 @@
       "changeable": 1
     },
     {
-      "key": "zdzy",
-      "name": "👑 最大影业",
+      "key": "gszy",
+      "name": "⚡ 光速资源",
       "type": 1,
-      "api": "https://api.zuidapi.com/api.php/provide/vod/?ac=list",
+      "api": "https://api.guangsuapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "ffzy",
+      "name": "🚀 非凡影视",
+      "type": 1,
+      "api": "http://ffzy5.tv/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -62,60 +62,10 @@
       "changeable": 1
     },
     {
-      "key": "yhzy",
-      "name": "🌸 樱花影院",
-      "type": 1,
-      "api": "https://api.ukuapi88.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
       "key": "hhzy",
       "name": "🦊 火狐高清",
       "type": 1,
       "api": "https://hhzyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "jszy",
-      "name": "🏎️ 极速影音",
-      "type": 1,
-      "api": "https://jszyapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "gszy",
-      "name": "⚡ 光速资源",
-      "type": 1,
-      "api": "https://api.guangsuapi.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "bdzy",
-      "name": "🐻 百度快线",
-      "type": 1,
-      "api": "https://api.apibdzy.com/api.php/provide/vod/?ac=list",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "jyzy",
-      "name": "🦅 金鹰影院",
-      "type": 1,
-      "api": "https://jyzyapi.com/provide/vod/from/jinying/at/json",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
