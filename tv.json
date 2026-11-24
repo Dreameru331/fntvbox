@@ -6,7 +6,7 @@
       "key": "douban",
       "name": "豆瓣热播 (聚合秒搜)",
       "type": 3,
-      "api": "csp_DouDou",
+      "api": "csp_Douban",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
@@ -21,19 +21,19 @@
       "filterable": 1
     },
     {
-      "key": "bfzy",
-      "name": "暴风资源",
+      "key": "ryzy",
+      "name": "牛牛资源",
       "type": 1,
-      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
+      "api": "https://api.niuniuzy.me/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
     {
-      "key": "ryzy",
-      "name": "牛牛资源",
+      "key": "bfzy",
+      "name": "暴风资源",
       "type": 1,
-      "api": "https://api.niuniuzy.me/api.php/provide/vod/",
+      "api": "https://bfzyapi.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -159,7 +159,7 @@
       "key": "suonizy",
       "name": "索尼资源",
       "type": 1,
-      "api": "https://www.hongniuzy2.com/api.php/provide/vod/?ac=list",
+      "api": " https://www.hongniuzy2.com/api.php/provide/vod/?ac=list",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
@@ -219,6 +219,7 @@
       "filterable": 1
     }
   ],
+  "parses": [],
   "lives": [
     {
       "name": "📺 央视卫视高清直播 (线路1)",
@@ -231,6 +232,12 @@
       "type": 0,
       "url": "https://zb.7778.uk/starlink.m3u",
       "epg": "http://epg.51zmt.top:8000/api/diyp/"
+    },
+    {
+      "name": "📺 电视直播备用 (线路3)",
+      "type": 0,
+      "url": "http://47.120.41.246:8025/vip/jar/zb.php",
+      "epg": ""
     }
   ]
 }
